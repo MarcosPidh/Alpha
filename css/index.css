@@ -132,6 +132,7 @@ main article:hover .Main-text {
 
 .Main-text a:hover {
     color: lightseagreen;
+    transform: scale(1.1);
 }
 
 .Main-img {
@@ -321,6 +322,11 @@ footer a:hover {
         max-height: 150px;
     }
 
+    .Main-text a:hover {
+        
+        transform: scale(1.0);
+    }
+
     #prov-img {
         height: 450px;
         width: 300px;
@@ -411,6 +417,11 @@ footer a:hover {
 
     .Main-text {
         font-size: 18px;
+    }
+
+    .Main-text a:hover {
+        
+        transform: scale(1.2);
     }
 
     aside {

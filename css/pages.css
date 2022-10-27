@@ -215,7 +215,7 @@ article {
 
 .icon-list a:hover {
     background-color: rgba(32, 178, 171, 0.650);
-
+    transform: scale(1.1);
 }
 
 .icon-list {
@@ -339,9 +339,6 @@ footer a {
         opacity: 0;
     }
     
-    .card :hover {
-        cursor: pointer;
-    }
     
     .card:hover .text {
         height: 250px;
@@ -351,22 +348,13 @@ footer a {
     }
     
     
-    .card:hover p {
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    
-    .card:hover {
-        transform: scale(1.1);
-    }
-    
-    .card a {
-            text-decoration: none;
-    }
-
+   
     .article-text {
         font-size: 14px;
+    }
+
+    .card:hover {
+        transform: scale(1.0) rotate(-2DEG);
     }
 
     .video-1 iframe {
@@ -499,10 +487,7 @@ footer a {
         font-size: 20px;
     }
 
-    
-    .card :hover {
-        cursor: pointer;
-    }
+
     
     .card:hover .text {
         height: 150px;
@@ -512,12 +497,9 @@ footer a {
     }
     
     .card:hover {
-        transform: scale(1.1);
+        transform: scale(1.1) ;
     }
-    
-    .card a {
-            text-decoration: none;
-    }
+
     
     article {
         grid-row: 4/5;
